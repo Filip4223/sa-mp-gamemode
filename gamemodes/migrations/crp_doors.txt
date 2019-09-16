@@ -1,0 +1,3 @@
+[18-01-2019]
+ALTER TABLE `crp_doors` ADD `door_meters` INT NOT NULL AFTER `door_value1`;
+ALTER TABLE `crp_doors` ADD `door_meters_x` FLOAT NOT NULL AFTER `door_meters`, ADD `door_meters_y` FLOAT NOT NULL AFTER `door_meters_x`, ADD `door_meters_z` FLOAT NOT NULL AFTER `door_meters_y`, ADD `door_meters_nx` FLOAT NOT NULL AFTER `door_meters_z`, ADD `door_meters_ny` FLOAT NOT NULL AFTER `door_meters_nx`, ADD `door_meters_nz` FLOAT NOT NULL AFTER `door_meters_ny`;

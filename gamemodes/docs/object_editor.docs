@@ -1,0 +1,20 @@
+ EDYTOR OBIEKTÓW (CUSTOM)
+ * -
+ * power = 0.1
+ * -
+ * W - X += power
+ * S - X -= power
+ * A - Y += power
+ * D - Y -= power
+ *
+ ** Ze spacj¹
+ * power = 1.0
+ *
+ ** Z altem
+ * power = 0.01
+ *
+ ** Z shiftem
+ * W - Z + power 
+ * S - Z - power
+ * A - R - power
+ * D - R + power

@@ -1,0 +1,2 @@
+[25.01.2019]
+ALTER TABLE `crp_groups` ADD `group_last_payment` INT NOT NULL DEFAULT '0' AFTER `group_ooc`;

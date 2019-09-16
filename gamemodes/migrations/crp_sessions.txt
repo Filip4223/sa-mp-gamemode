@@ -1,0 +1,2 @@
+[13-01-2019]
+ALTER TABLE `crp_sessions` ADD `session_ip` VARCHAR(16) NOT NULL DEFAULT 'null' AFTER `session_end`;

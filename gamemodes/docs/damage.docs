@@ -1,0 +1,85 @@
+[Skróty]
+OM - op³ata medyczna
+
+[Informacje o obra¿eniach]
+ * Przy pobiciu:
+  	[Szanse procentowe]
+  	- 60% na lekkie obra¿enia (OM: $400).
+  	- 30% na œrednie obra¿enia. (OM: $900).
+  	- 10% na ciê¿kie obra¿enia (OM: $1500).
+
+ * Przy postrzale:
+    [Szanse procentowe]
+    	* Przewaga strza³ów w dany pkt. cia³a
+
+        [Head]
+        - 60% na ciê¿kie obra¿enia (OM: $4000).
+        - 30% na œrednie obra¿enia (OM: $2000).
+        - 10% na lekkie obra¿enia (OM: $1200).
+        [Torso]
+        - 30% na  obra¿enia (OM: $2800).
+        - 50% na œrednie obra¿enia (OM: $1600).
+        - 20% na leciê¿kiekkie obra¿enia (OM: $800).
+        [Groin]
+        - 20% na ciê¿kie obra¿enia (OM: $2300).
+        - 40% na œrednie obra¿enia (OM: $1100).
+        - 40% na lekkie obra¿enia (OM: $600).
+        [Arms & Legs]
+        - 20% na ciê¿kie obra¿enia (OM: $1800).
+        - 50% na œrednie obra¿enia (OM: $900).
+        - 30% na lekkie obra¿enia (OM: $300).
+
+ * Przy innych, np. upadek:
+ 	[Szanse procentowe]
+    - 5% na ciê¿kie obra¿enia (OM: $1600).
+    - 30% na œrednie obra¿enia (OM: $800).
+    - 65% na lekkie obra¿enia (OM: $400).
+
+ [Pakiety ubezpieczeniowe]
+ * Wersja standard
+   [Koszty]
+   - 20% z ka¿dej wyp³aty.
+   - Jednorazowa op³ata $50.
+   [Korzyœci]
+   - Refundacja 75% OM.
+   - Spadek cen leków w aptece o 30%.
+
+ * Wersja najs³absza (low)
+   [Koszty]
+   - 10% z ka¿dej wyp³aty.
+   [Korzyœci]
+   - Refundacja 30% OM
+
+ * Wersja najwy¿sza (pro)
+   [Koszty]
+   - 35% z ka¿dej wyp³aty.
+   - Jednorazowa op³ata $1000.
+   [Korzyœci
+   - Refundacja 100% OM.
+   - Spadek cen leków w aptece o 85%.
+
+[Inne]
+ * Frakcje porz¹dkowe maj¹ wersjê najwy¿sz¹ tak czy siak - op³ata jest odejmowana co 14 dni z konta grupowego. ($750/cz³onek)
+ * Przy rabatach w aptece resztê pokrywa system - w³aœciciel apteki nie mo¿e ucierpieæ na tym, ¿e ktoœ ma ubezpieczenie.
+ * Nowe postaci otrzymuj¹ wersjê standard na 7 dni.
+ * W ka¿dej chwili gracz mo¿e zrezygnowaæ z ubezpieczenia - nie otrzymuje ¿adnego zwrotu.
+ * Gracz nie mo¿e otrzymaæ stanu ciê¿kiego je¿eli na serwerze nie ma aktywnych medyków.
+
+[Przedmioty]
+Badanie - wyœwietla siê dialog z graczami w pobli¿u, po u¿yciu gracz czeka 15 sekundy oraz przedmiot siê usuwa, gracz dostaje przedmiot "Wyniki badañ"" (value1 to UID postaci) ze stanem pacjenta, dat¹ badania, medykiem wykonuj¹cym.
+
+[Komendy]
+/heal [id] - medyk zaczyna leczyæ gracza. Po kilku sekundach gracz odzyskuje przytomnoœæ. Przed komend¹ musi zostaæ wykonane badanie. Mo¿e siê to odbyæ tylko w budynku przypisanym pod LS GOV.
+
+[Wp³yw obra¿eñ na los postaci]
+   [Ciê¿kie]
+   - Gracz nie mo¿e wykonywaæ ¿adnej akcji, do czasu wyleczenia jest w stanie BW. Medycy mog¹ go przetransportowaæ na noszach.
+   [Œrednie]
+   - Gracz jest w stanie ograniczonej kontroli - mo¿e mówiæ i chodziæ (co kilka sekund system go zatrzymuje/wywraca). BW 7 min.
+   [Lekkie]
+   - Gracz nie mo¿e biegaæ. BW 4 min.
+
+[Debet]
+ * Je¿eli gracz nie posiada pieniêdzy na OM pieni¹dze nabijaj¹ siê na debet.
+ * Je¿eli gracz posiada debet nie mo¿e p³aciæ kart¹, ani wyp³acaæ pieniêdzy na koncie bankowym.
+ * Sp³ata debetu odbywa siê w /bank.

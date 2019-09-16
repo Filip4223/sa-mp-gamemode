@@ -1,0 +1,10 @@
+* Levele postaci administracyjnych.
+* -
+* - Administracja
+* ADM 2 - CEO, wszystkie uprawnienia; CEO w /a
+* ADM 1 - wszystkie uprawnienia; ADM{level} w /a
+* - Pozostali cz³onkowie ekipy
+* SP4 - uprawnienia do wszystkich kar i podgl¹du pe³nych statystyk postaci.
+* SP3 - wszystkie kary oprócz bana i blokady postaci.
+* SP2 - ograniczone /stats, bez limitu kar
+* SP1 - limity kar, same podstawowe uprawnienia - AJ do 120 minut.

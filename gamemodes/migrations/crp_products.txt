@@ -1,0 +1,2 @@
+[13.01.2019]
+ALTER TABLE `crp_products` CHANGE `product_uid` `product_uid` INT(11) NOT NULL AUTO_INCREMENT;

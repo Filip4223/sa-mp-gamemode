@@ -1,0 +1,4 @@
+ITEM_TYPE_GYM_PASS (karnet na si³ownie):
+	- value1 - iloœæ u¿yæ karnetu
+	- value2 - UID grupy, która karnet wyda³a (mo¿e byæ u¿yty w drzwiach nale¿¹cych do tej grupy)
+	

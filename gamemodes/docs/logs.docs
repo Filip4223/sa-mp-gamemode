@@ -1,0 +1,51 @@
+*******************
+*** LOGI GRACZY ***
+*******************
+-
+-- Gracze
+[change] [playerid %d] Changing name from [Imie_Nazwisko] to [Imie_Nazwisko]. //Dzia³a
+[join] [login] [Imie Nazwisko] ID %d, UID %d, GUID %d. Cash: %d USD. Bank: %d USD. Played: %dh %dm. IP: ip //Dzia³a
+[join] [disconnect] [Imie Nazwisko] has left the server (ID:reason) //Dzia³a
+[hostname] [Imie Nazwisko] hostname //Dzia³a
+[spawn] [Imie Nazwisko] spawned {at default spawn|in house|in previous position}. (px, py, pz) //Dzia³a
+[cmdl] [Imie Nazwisko] /komenda //Dzia³a
+[dmg] [Imie Nazwisko]>[Dane ofiary] w0 hp1.00 ping50 wuid152055 wowner6 //Test
+[dmg][bw] [Imie Nazwisko] BW 5min //Test
+[dmg][bw] [Imie Nazwisko] UNBW //Dzia³a
+[priv] [Imie Nazwisko]>[Drugi Gracz] Tresc //Test (w+w z tokenem)
+[chat] [Imie Nazwisko][IC:a50x50] tresc wiadomosci //Dzia³a
+[chat] [Imie Nazwisko][IC:g500] sluchawka //Dzia³a
+[chat] [Imie Nazwisko][RP:me] *tresc /me* //Dzia³a
+[chat] [Imie Nazwisko][RP:do] *tresc /do* //Dzia³a
+[chat] [Imie Nazwisko][RP:try] *tresc /sprobuj* //Dzia³a
+[chat] [Imie Nazwisko][OOC:a50x50] kropka //Dzia³a
+[chat] [Imie Nazwisko][OOC:g500] grupa //Dzia³a
+
+-- Pojazdy
+[cars] [Imie nazwisko] Entered vehicle ID (MTB), seat 0 (fuel 50) //test
+[cars] [Imie Nazwisko] Exited vehicle ID (Name), os2 //test passenger + driver
+[cars] [Imie Nazwisko] Exits a moving vehicle UID 1000 //test
+[cars] [Imie Nazwisko] Spawns vehicle ID (SA-MP ID %d), model 468 (Sanchez), health 1000.00
+[cars][cash] [Imie Nazwisko] (20000) sells vehicle 10000 to [Nick Kupujacego] (100000) for 1000 USD
+[cars][damage] Vehicle 15252 (Sultan): HP went from 1000.0 to 700.0 (delta 300.0). updatingPlayer: 100 (2000) [Camren Lastbreath]. Last driver: Camren Lastbreath(2000). Most recently collided with: {bullet w24 p1000|wall|veh p1000}
+
+-- Admin
+[admin][spec] [GM Filip]>[Imie Nazwisko](52)
+[admin][scold] [GM Filip]>[Imie Nazwisko] 0d Ban, powod
+[admin][report] [Raportujacy Nazwa]>[Raportowany Nazwa] powod
+
+-- Pieni¹dze
+
+-- Itemki
+[thing] [Imie Nazwisko] drops thing 152055 down on the floor (x, y, z, vw)
+[thing] [Imie Nazwisko] uses thing 12000 (Hamburger) V0:0:0
+[thing][cars] [Imie Nazwisko] lifts thing 1500 (Hamburger) up. Vehicle UID 1000
+[thing][cars] [Imie Nazwisko] puts thing 1500 (Hamburger) down. Vehicle UID 1000
+[thing][door] [Imie Nazwisko] lifts thing 1500 (Hamburger) up. Door UID 1000
+[thing][door] [Imie Nazwisko] puts thing 1500 (Hamburger) down. Door UID 1000
+
+-- Drzwi
+[door] [Imie Nazwisko] Enters Name (d666, 5 people inside)
+[door] [Imie Nazwisko] Exits name (d666)
+[door] [Imie Nazwisko] Locks doorname (d666)
+[door] [Imie Nazwisko] Unlocks doorname (d666)

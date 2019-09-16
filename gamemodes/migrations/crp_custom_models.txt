@@ -1,0 +1,9 @@
+[24.11.2018]
+CREATE TABLE IF NOT EXISTS `crp_custom_models` (
+  `id` int(15) NOT NULL,
+  `type` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'skin',
+  `template` int(15) NOT NULL,
+  `gameid` int(15) NOT NULL,
+  `dff` varchar(60) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `txd` varchar(60) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

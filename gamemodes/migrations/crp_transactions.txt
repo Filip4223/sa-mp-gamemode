@@ -1,0 +1,16 @@
+[19-01-2019]
+CREATE TABLE `crp_transactions` (
+  `transaction_uid` int(11) NOT NULL,
+  `transaction_owner` int(11) NOT NULL,
+  `transaction_type` int(11) NOT NULL,
+  `transaction_description` varchar(128) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+ALTER TABLE `crp_transactions`
+  ADD PRIMARY KEY (`transaction_uid`);
+
+ALTER TABLE `crp_transactions`
+  MODIFY `transaction_uid` int(11) NOT NULL AUTO_INCREMENT;
+COMMIT;
+
+ALTER TABLE `crp_transactions` ADD `transaction_price` INT NOT NULL AFTER `transaction_description`;

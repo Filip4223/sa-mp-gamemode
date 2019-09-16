@@ -1,0 +1,6 @@
+- zerkn¹æ na DIALOG_WORKS, czy tam s¹ prace dorywcze zaczête?
+- sprawdzic czy wszedzie przy GivePlayerMoney i AddPlayerBankMoney s¹ logi
+- zg³oszenia grup zrobiæ takie fajne, ¿eby siê zapisywa³y a nie tylko na czat lecia³y
+- ogarnac nocny restart zeby sie czasem kilka razy nie wykonal 
+- dodac anty chat flood i anty command flood
+- usunac RefreshPlayer
