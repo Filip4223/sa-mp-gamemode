@@ -1,2 +1,0 @@
-[18-01-2019]
-ALTER TABLE `crp_items` ADD `item_favorite` BOOLEAN NOT NULL DEFAULT FALSE AFTER `item_created`;

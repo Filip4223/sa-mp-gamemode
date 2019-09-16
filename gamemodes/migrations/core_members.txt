@@ -1,2 +1,0 @@
-[11.01.2019]
-ALTER TABLE `core_members` DROP `member_game_admin_perm`;
