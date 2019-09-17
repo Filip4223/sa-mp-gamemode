@@ -1,6 +1,6 @@
 /*  SA:MP RolePlay GameMode
 *   -
-*   Author: 	  Filip (Discord: Filip#0996)
+*   Author: 	  Filip Szymanski (Discord: Filip#0996/aventez#5327)
 *   Published: 	  21.12.2018
 *   Version:      1.0
 *	Credits:	  Shelby, promsters 
